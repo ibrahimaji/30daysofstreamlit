@@ -40,3 +40,12 @@ start_time = st.slider(
         format = "MM/DD/YY - hh:mm"
         )
 st.write("Start time: ", start_time)
+
+#Example 5
+
+st.subheader('Select slider')
+
+color = st.select_slider(
+        'Select a color of the rainbow',options = ['red','orange','yellow','green','blue','indigo','violet']
+        )
+st.write('My favorite color is', color)
